@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Velourist';
+            src: url('fontes/Velourist.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face{
+            font-family: 'Yamaka';
+            src: url('fontes/Yamaka Personal Used.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format():
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded opentype
+                - truetype-att (Apple Advanced Typhography)
+                - svg
+            */
+        }
+
+        body{
+            font-family:Arial, Helvetica, sans-serif
+        }
+
+        h1{
+            font-family: 'Yamaka', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+        h2{
+            font-family: 'Velourist';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi est similique saepe corporis, tenetur unde numquam rem. Doloribus iusto accusamus delectus voluptate sit. Natus molestias, eaque deleniti placeat odio illo!</p>
+    <h2>Títulos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nemo necessitatibus, cum officia culpa sit laudantium. Nam dicta dignissimos minus. Veritatis porro libero maiores vitae quisquam. Distinctio iusto ad tenetur.</p>
+</body>
+</html>

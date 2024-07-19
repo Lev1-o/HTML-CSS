@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>
+        Nessa frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt;. <!--NÃO SEMÂNTICO-->
+    </p>
+    <p>
+        Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag &lt;strong&gt;. <!--SEMÂNTICO-->
+    </p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>
+        Nesta frase, temos um <i>termo em itálico</i> usando a tag &lt;I&gt;. <!--NÃO SEMÂNTICO-->
+    </p>
+    <p>
+        Nesta frase, temos um termo <em>em ênfase</em> usando a tag &lt;em&gt;.
+        <!--SEMÂNTICO-->
+    </p>
+
+    <h2>Texto Marcado</h2>
+    <p>
+        Podemos criar também um <mark>texto marcado</mark> usando a tag &lt;mark&gt;. <!--SEMÂNTICO-->
+    </p>
+    <p>
+        E no outro, temos um texto que <mark>não herdou</mark> as características da outra mark. 
+    </p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>
+        Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo usando as tags &lt;big&gt; e &lt;small&gt;.
+        <!--A tag <big> entrar em desuso, é causado por ela ter um intuito só de mudar a forma. já a tag <small> não entrou em desuso por conta dela ser uma tag com o sentido de chamar a atenção para ela-->
+    </p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que deve ser lido, mas não considerado. Apenas usando a tag &lt;del&gt;</p>
+
+    <h2>Sublinhado / Texto inserido</h2>
+    <p>
+        Podemos marcar <u>sublinhando um texto</u> usando a tag &lt;u&gt;. <!--NÃO SEMÂNTICO-->
+    </p>
+    <p>
+        Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois, usando a tag &lt;ins&gt;. <!--SEMÂNTICO-->
+    </p>
+
+    <h2>Texto Sobrescrito</h2>
+    <p>
+        Para inserir coisas do tipo: x<sup>20</sup> + 3. Usa-se a tag &lt;sup&gt;
+    </p>
+
+    <h2>Texto Subscrito</h2>
+    <p>
+        Para inserir coisas do tipo: H<sub>2</sub>O. Usa-se a tag &lt;sub&gt;
+    </p>
+
+</body>
+</html>
