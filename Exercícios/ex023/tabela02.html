@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <style>
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        td.numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero"> 34 523 092</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">134 904 01</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>total de Habitantes</th>
+                <td>93.932.542</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
